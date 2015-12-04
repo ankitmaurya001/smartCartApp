@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" 
@@ -14,6 +14,11 @@
         android:layout_centerVertical="true"
         android:background="@drawable/checkout"
         android:text=" Start Shopping " />
+    <TextView
+        android:id="@+id/minWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are near to wifi : "/>
 
     <EditText
         android:id="@+id/editText1"
@@ -38,4 +43,46 @@
         android:textSize="30dp"
         android:textStyle="bold" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/wifiList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:text="Phone No."
+        android:textColor="@color/black2"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tag_viewer_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:autoLink="email|web"
+                android:text="intro message" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/rfidtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:text="Phone No."
+        android:textColor="@color/black2"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

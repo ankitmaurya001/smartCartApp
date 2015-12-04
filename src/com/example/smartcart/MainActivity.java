@@ -1,9 +1,5 @@
 package com.example.smartcart;
 
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -29,6 +25,10 @@ import com.example.smartcart.model.Flowers;
 import com.example.smartcart.model.sparkFun;
 import com.example.smartcart.parsers.sparkFunJSONParser;
 
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.List;
+
 //Array of options -- > ArrayAdapter --> ListView
 
 //List view : {views : da_items.xml}
@@ -53,6 +53,9 @@ public class MainActivity extends ActionBarActivity {
 	public int noOfProducts = 0;
 
 	public double etPollingIntervalValue;
+
+
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +83,7 @@ public class MainActivity extends ActionBarActivity {
 
 		startQuery();
 
+
 		// showMessage();
 
 		// showList();
@@ -106,6 +110,8 @@ public class MainActivity extends ActionBarActivity {
 		});
 
 	}
+
+
 
 	private String showNumber() {
 

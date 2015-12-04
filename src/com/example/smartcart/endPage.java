@@ -1,8 +1,5 @@
 package com.example.smartcart;
 
-import com.example.smartcart.MainActivity.MyTask;
-import com.example.smartcart.parsers.sparkFunJSONParser;
-
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
