@@ -41,13 +41,13 @@ public class sparkFunJSONParser {
 				
 	            //doing juggad for the app again , don't know why the fucking changes in the app are not working.
 				// My mapping is
-				// Levi's Jeans - oreo1
-				// Wrogn shirt -  jam11
-				// Arrow shirt - sauce
-				// Leee shirt  - milk11	
+				// Levi's Jeans - oreo
+				// Wrogn shirt(Puma cap) -  jam
+				// Arrow shirt(Nike Tshirt) - sauce
+				// Leee shirt  - milk	
 				// changing the pics and doing jugaad. 
 				// like changing oreo image to levi's jeans.
-	/*			
+				
 				if (product.contains("oreo")){
 					SparkFun.setIconID(R.drawable.oreo);
 				}
@@ -57,22 +57,14 @@ public class sparkFunJSONParser {
 				if (product.contains("sauce")){
 					SparkFun.setIconID(R.drawable.sauce);
 				}
-				if (product.contains("pil")){
-					SparkFun.setIconID(R.drawable.pillsbury);
-				}
 				if (product.contains("milk")){
 					SparkFun.setIconID(R.drawable.milk);
 				}
-				if (product.contains("horlic")){
-					SparkFun.setIconID(R.drawable.horlicks);
-				}
-				if (product.contains("invalid")){
-					SparkFun.setIconID(R.drawable.wrong);
-				}
+				
 
 
 
-      */              
+                  
 				itemsList.add(SparkFun);
 
 			}

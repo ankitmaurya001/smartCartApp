@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+     android:background="@color/white6">
 
     <TextView
         android:id="@+id/endPage"
@@ -12,7 +13,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="137dp"
-        android:text="Thank you for shopping with iCart!!"
+        android:text="Thank you for shopping with smartBag!!"
         android:textColor="@color/blue1"
         android:textSize="50dp" />
 

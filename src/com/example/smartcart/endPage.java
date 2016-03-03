@@ -15,7 +15,7 @@ public class endPage extends ActionBarActivity {
 		//to delete the data in the stream
 	//	String uri = "http://10.196.64.81:8080/input/go0Kyy7Dxzh6dwArbqMbH0eenP0/clear?private_key=VO4oWW6pGQCMa8LEy5ByT4116O4";
 	//	String uri = "http://192.168.1.107:8080/input/GV7BkPD80es8gooB2dGlIKZArMr/clear?private_key=mpLEaozr4GIwN224rPB1iWYd5w5";
-		String uri = "http://192.168.1.100:8080/input/G2nxk3PzQVU8go2ALXWxSxp2bzK1/clear?private_key=mY0MaOoQnphwN2ry35kYfq18rbWK";
+		String uri = "http://10.77.133.24:8080/input/qdLPqJ1QmKHAG136Z1Alhle2bg3J/clear?private_key=g9qr05yJzMcqn18Yr1qgSRdkJn60";
 		MyTask task = new MyTask();
 		task.execute(uri);
 
